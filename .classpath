@@ -3,7 +3,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="client_switch/src_client_rap"/>
 	<classpathentry kind="src" path="client_switch/src_client_rcp"/>
 	<classpathentry kind="src" path="src_performance"/>
 	<classpathentry kind="src" path="src_notify"/>
@@ -34,8 +33,6 @@
 	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar"/>
 	<classpathentry kind="lib" path="lib/HinemosCommon.jar"/>
 	<classpathentry kind="lib" path="lib/jcommon-1.0.16.jar"/>
-	<classpathentry kind="lib" path="lib/jfreechart-1.0.13-swt.jar"/>
-	<classpathentry kind="lib" path="lib/jfreechart-1.0.13.jar"/>
 	<classpathentry kind="lib" path="lib/jpasecurity-core-0.4.0.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.6.6.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.6.6.jar"/>
@@ -87,257 +84,10 @@
 	<classpathentry kind="lib" path="lib/plugin.jar"/>
 	<classpathentry kind="lib" path="lib/resources.jar"/>
 	<classpathentry kind="lib" path="lib/rt.jar"/>
-	<classpathentry kind="lib" path="plugins/com.ibm.icu_52.1.0.v201404241930.jar"/>
-	<classpathentry kind="lib" path="plugins/com.ibm.icu.base_52.1.0.v201404171520.jar"/>
-	<classpathentry kind="lib" path="plugins/javax.annotation_1.2.0.v201401042248.jar"/>
-	<classpathentry kind="lib" path="plugins/javax.inject_1.0.0.v20091030.jar"/>
-	<classpathentry kind="lib" path="plugins/javax.servlet_3.0.0.v201112011016.jar"/>
-	<classpathentry kind="lib" path="plugins/javax.xml_1.3.4.v201005080400.jar"/>
-	<classpathentry kind="lib" path="plugins/org.apache.batik.css_1.7.0.v201011041433.jar"/>
-	<classpathentry kind="lib" path="plugins/org.apache.batik.util_1.7.0.v201011041433.jar"/>
-	<classpathentry kind="lib" path="plugins/org.apache.batik.util.gui_1.7.0.v200903091627.jar"/>
-	<classpathentry kind="lib" path="plugins/org.apache.commons.io_2.0.1.v201105210651.jar"/>
-	<classpathentry kind="lib" path="plugins/org.apache.felix.gogo.command_0.10.0.v201209301215.jar"/>
-	<classpathentry kind="lib" path="plugins/org.apache.felix.gogo.runtime_0.10.0.v201209301036.jar"/>
-	<classpathentry kind="lib" path="plugins/org.apache.felix.gogo.shell_0.10.0.v201212101605.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ant.core_3.3.0.v20140518-0042.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ant.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ant.tests.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ant.tests.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ant.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.compare.core_3.5.400.v20130903-0736.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.compare.examples.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.compare.examples.xml.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.compare.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.compare.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.boot.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.commands_3.6.100.v20140528-1422.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.commands.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.contenttype_3.4.200.v20140207-1251.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.contenttype.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.databinding_1.4.1.v20140214-0004.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.databinding.beans.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.databinding.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.databinding.property_1.4.200.v20140214-0004.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.expressions_3.4.600.v20140128-0851.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.expressions.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.expressions.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.filesystem_1.4.100.v20140514-1614.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.filesystem.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.filesystem.win32.x86_64_1.4.0.v20140124-1940.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.jobs_3.6.0.v20140424-0053.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.jobs.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.net.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.resources_3.9.0.v20140514-1307.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.resources.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.resources.win32.x86_64_3.5.0.v20140124-1940.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.runtime.compatibility.auth.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.runtime.compatibility.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.runtime.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.variables_3.2.800.v20130819-1716.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.core.variables.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.debug.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.debug.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.draw2d_3.9.100.201405261516.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.core.commands_0.10.2.v20140424-2344.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.core.contexts_1.3.100.v20140407-1019.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.core.di_1.4.0.v20140414-1837.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.core.di.extensions_0.12.0.v20140417-2033.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.core.services_1.2.0.v20140509-1840.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.bindings_0.10.200.v20140424-2042.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.css.core_0.10.100.v20140424-2042.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.css.swt_0.11.100.v20140522-1045.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.css.swt.theme_0.9.300.v20140424-2042.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.di_1.0.0.v20140328-2112.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.model.workbench_1.1.0.v20140512-1820.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.services_1.1.0.v20140328-1925.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.widgets_1.0.0.v20140514-1823.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.workbench_1.1.0.v20140528-1949.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.workbench.addons.swt_1.1.0.v20140602-1537.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.workbench.renderers.swt_0.12.0.v20140521-1818.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.workbench.swt_0.12.100.v20140530-1436.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.e4.ui.workbench3_0.12.0.v20140227-2118.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.emf.common_2.10.0.v20140514-1158.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.emf.ecore_2.10.0.v20140514-1158.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.emf.ecore.change_2.10.0.v20140514-1158.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.app_1.3.200.v20130910-1609.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.app.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.bidi_0.10.0.v20130327-1442.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.cm.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.common.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.console_1.1.0.v20140131-1639.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.device.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.ds_1.4.200.v20131126-2331.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.ds.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.event_1.3.100.v20140115-1647.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.event.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.http.jetty.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.http.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.http.registry_1.1.300.v20130402-1529.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.http.registry.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.http.servlet_1.1.500.v20140318-1755.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.http.servlet.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.http.servletbridge_1.0.300.v20130327-1442.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.http.servletbridge.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.jmx.client.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.jmx.vm.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.launcher.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.log.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.metatype.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.preferences_3.5.200.v20140224-1527.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.preferences.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.registry_3.5.400.v20140428-1507.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.registry.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.servletbridge_1.3.0.v20140430-1556.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.servletbridge.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.useradmin.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.util_1.0.500.v20130404-1337.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.equinox.wireadmin.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ftp.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.help_3.6.0.v20130326-1254.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.help.appserver.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.help.base.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.help.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.help.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.help.webapp.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.apt.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.apt.pluggable.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.apt.pluggable.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.apt.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.apt.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.compiler.apt.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.compiler.tool.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.core.manipulation.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.core.tests.builder.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.core.tests.compiler.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.core.tests.model.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.core.tests.performance.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.debug.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.debug.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.debug.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.doc.isv.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.doc.user.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.junit.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.junit.runtime.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.junit4.runtime.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.launching.macosx.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.launching.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.ui.examples.projects.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.ui.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jdt.ui.tests.refactoring.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jface_3.10.0.v20140604-0740.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jface.databinding_1.6.200.v20140528-1422.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jface.databinding.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jface.examples.databinding.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jface.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jface.tests.databinding.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jface.text_3.9.0.v20140521-1657.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jsch.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.jsch.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ltk.core.refactoring.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ltk.core.refactoring.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ltk.ui.refactoring.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ltk.ui.refactoring.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.osgi_3.10.0.v20140606-1445.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.osgi.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.osgi.services_3.4.0.v20140312-2051.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.osgi.services.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.osgi.util.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.pde.build.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.pde.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.pde.doc.user.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.pde.junit.runtime.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.pde.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.pde.runtime.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.pde.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.pde.ui.templates.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.platform.doc.isv.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.platform.doc.user.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.releng.tools.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.search.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.stp.bpmn.diagram.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.stp.bpmn.edit.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.stp.bpmn.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.stp.bpmn.validation.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt_3.103.0.v20140605-2008.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.examples.browser.demos.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.examples.browser.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.examples.controls.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.examples.launcher.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.examples.layouts.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.examples.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.examples.ole.win32.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.examples.paint.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.tests.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.tools.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.swt.win32.win32.x86_64_3.103.0.v20140605-2012.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.target.ftp.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.target.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.target.webdav.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.team.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.team.cvs.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.team.cvs.ssh.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.team.cvs.ssh2.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.team.cvs.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.team.examples.filesystem.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.team.ftp.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.team.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.team.webdav.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.text_3.5.300.v20130515-1451.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.tomcat.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui_3.106.0.v20140519-0906.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.browser.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.cheatsheets.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.console.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.examples.contributions.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.examples.fieldassist.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.examples.multipageeditor.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.examples.propertysheet.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.examples.readmetool.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.examples.undo.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.examples.views.properties.tabbed.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.externaltools.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.forms.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.ide.application.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.ide.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.intro.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.intro.universal.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.navigator.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.navigator.resources.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.net.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.presentations.r21.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.tests.views.properties.tabbed.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.views.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.views.properties.tabbed.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.workbench_3.106.0.v20140530-0732.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.workbench.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.ui.workbench.texteditor_3.9.0.v20140411-1521.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.update.configurator.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.update.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.update.scheduler.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.update.tests.core.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.update.ui.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.eclipse.webdav.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.junit4.nl_ja_0.2.0.v20080810043401.jar"/>
-	<classpathentry kind="lib" path="plugins/org.w3c.css.sac_1.3.1.v200903091627.jar"/>
-	<classpathentry kind="lib" path="plugins/org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar"/>
-	<classpathentry kind="lib" path="plugins/org.w3c.dom.smil_1.0.0.v200806040011.jar"/>
-	<classpathentry kind="lib" path="plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar"/>
 	<classpathentry kind="lib" path="lib/org.apache.commons.fileupload.jar"/>
 	<classpathentry kind="lib" path="lib/jfreesvg-2.0.jar"/>
 	<classpathentry kind="lib" path="lib/org.eclipse.rap.rwt-3.1.0-M1.jar"/>
 	<classpathentry kind="lib" path="lib/org.eclipse.rap.doc_3.1.0.20150625-1032.jar"/>
-	<classpathentry kind="lib" path="lib/org.eclipse.rap.rwt-2.3.0-RC1.jar"/>
 	<classpathentry kind="lib" path="lib/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/jcommon-1.0.23.jar"/>
 	<classpathentry kind="lib" path="lib/jfreechart-1.0.19-experimental.jar"/>
@@ -347,5 +97,8 @@
 	<classpathentry kind="lib" path="lib/orsoncharts-1.4-eval-nofx.jar"/>
 	<classpathentry kind="lib" path="lib/orsonpdf-1.6-eval.jar"/>
 	<classpathentry kind="lib" path="lib/servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/eclipse/plugins/com.ibm.icu_54.1.1.v201501272100.jar" sourcepath="C:/Program Files/eclipse/plugins/com.ibm.icu.source_54.1.1.v201501272100.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.e4.core.di.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet-3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
